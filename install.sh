@@ -16,3 +16,18 @@ sudo tar -xzvf /etc/snort/community-rules.tar.gz -C /etc/snort/
 # Here we're copying a basic snort configuration to snort.conf
 sudo cp /etc/snort/snort.conf{.dpkg-dist,}
 
+git clone https://github.com/WhiteHatCyberus/SNORT-GUI.git
+
+cd SNORT-GUI
+
+cd snort/snortgui
+
+mv resources .resources
+
+sudo python3 installer.py
+
+sudo python3 snortgui.py
+
+
+
+
