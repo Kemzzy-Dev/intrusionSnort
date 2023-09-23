@@ -26,7 +26,11 @@ mv resources .resources
 
 sudo python3 installer.py
 
-sudo python3 snortgui.py
+chmod +x run.sh
+
+./run.sh &
+
+echo "Done installing Snort.....Type intrusion to start the application"  
 
 
 
