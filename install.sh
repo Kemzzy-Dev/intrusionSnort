@@ -26,9 +26,9 @@ mv resources .resources
 
 sudo python3 installer.py
 
-sudo python3 snortgui.py
-
 echo "Done installing Snort...."  
+
+sudo python3 snortgui.py
 
 
 
