@@ -26,8 +26,6 @@ mv resources .resources
 
 sudo python3 installer.py
 
-sleep 2
-
 
 
 
