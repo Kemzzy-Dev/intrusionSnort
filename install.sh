@@ -26,13 +26,7 @@ mv resources .resources
 
 sudo python3 installer.py
 
-clear
-
-echo "Installation Successfully Completed"  
-
 sleep 2
-
-sudo python3 snortgui.py
 
 
 
