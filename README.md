@@ -22,12 +22,21 @@ To install the desired software or configure settings, you need to run the provi
    ```
    ./install.sh
    ```
-5. **Press OK/Agree to all the dialog box pop up on the screen.**
+5. **After installation make the run.sh file an excutable**
+   ```
+   chmod +x run.sh
+   ```
+6. **Run the startup script:**
+   ```
+   ./run.sh
+   ```
+7. **Press OK/Agree to all the dialog box pop up on the screen.**
 
-6. **Click on the `RUN ID'S` button, set the number of hours you want to run snort for** 
+8. **Click on the `RUN ID'S` button, set the number of hours you want to run snort for** 
 
-7. S**elect your network interface...(Wlan0 is default)**
+9. **elect your network interface...(Wlan0 is default)**
 
-8. **Click on `Start Snort` to run the intrusion detection script**
+10. **Click on `Start Snort` to run the intrusion detection script**
 
-9. **For more information on how to use the GUI click this link:**
+11. **For more information on how to use the GUI click this link:**
+
